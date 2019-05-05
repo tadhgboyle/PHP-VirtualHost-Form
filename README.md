@@ -12,3 +12,5 @@ A PHP form to automatically make a VirtualHost file with optional automatic Let'
 - SSL support via certbot
 - CSS it up ;D
 - Domain validation
+- `a2ensite` when action is completed
+- redirect to homepage when action is completed
