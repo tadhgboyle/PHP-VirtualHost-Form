@@ -10,7 +10,7 @@
     
 <h1>New Virtual Host</h1> 
     
-<form action="new-vhost.php">
+<form action="new-vhost.php" method="post">
         Domain:<br>
         <input type="text" name="domain" placeholder="Domain (without www.)"><br>
         <br>
@@ -18,7 +18,7 @@
         <input type="radio" name="ssl" value="yes">Yes<br>
         <input type="radio" name="ssl" value="no">No<br>
         <br>
-    <button type="submit">Submit</button>
+    <input type="submit">
 </form>
     
 </body>
