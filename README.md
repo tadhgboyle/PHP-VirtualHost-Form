@@ -2,6 +2,7 @@
 A PHP form to automatically make a VirtualHost file with optional automatic Let's Encrypt support.
 
 # Usage:
+0. Ensure the target domain is pointed at your IP!
 1. Edit the `config.php` file to your liking (currently set to apache2 defaults on Ubuntu).
 2. Upload all three files to the same directory.
 3. Ensure your DirectoryRoot + VirtualHost folder's are set to 777
@@ -12,6 +13,5 @@ A PHP form to automatically make a VirtualHost file with optional automatic Let'
 ## To-Do
 - SSL support via certbot
 - CSS it up ;D
-- Domain validation
-- `a2ensite` when action is completed
+- Domain validation in form
 - redirect to homepage when action is completed
