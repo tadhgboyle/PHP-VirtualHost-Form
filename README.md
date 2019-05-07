@@ -1,6 +1,9 @@
 # PHP-VirtualHost-Form
 A PHP form to automatically make a VirtualHost file with optional automatic Let's Encrypt support.
 
+## Note:
+Not suitable for production servers as the PHP exec() function is not secure! In a future version I will create a workaround.
+
 # Usage:
 0. Ensure the target domain is pointed at your IP!
 1. Edit the `config.php` file to your liking (currently set to apache2 defaults on Ubuntu).
